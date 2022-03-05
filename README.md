@@ -21,4 +21,12 @@ pip install django
 ### Endpoints
 ---
 
+```python
 
+{
+  "login": "accounts/login/",
+  "logout": "accounts/logout/",
+  "signup": "accounts/signup/",
+  "home": "index/",
+}
+```
