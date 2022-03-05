@@ -39,4 +39,13 @@ pip install django
 ### Preview
 
 # Login Page
-![MarineGEO circle logo](/Images/login_page.png)
+![Login Page](/Images/login_page.png)
+
+# Sign Up Page
+![Sign Up Page](/Images/register_page.html)
+
+# Home Page
+![Home Page](/Images/home_page.png)
+
+# Successfull Sign Up
+![Sign Up Successfull](/Images/registration_successfull.png)
