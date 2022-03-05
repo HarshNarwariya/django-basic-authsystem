@@ -1,5 +1,4 @@
 # django-basic-authsystem
----
 
 Requirements
 ============
