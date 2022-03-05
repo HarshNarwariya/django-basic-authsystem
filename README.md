@@ -3,7 +3,6 @@
 Basic Auth System Implementation in Django.
 
 ### Requirements
----
 
 To be able to run **djoser** you have to meet following requirements:
 
@@ -19,7 +18,6 @@ pip install django
 ```
 
 ### Endpoints
----
 
 ```python
 
@@ -30,3 +28,6 @@ pip install django
   "home": "index/",
 }
 ```
+
+
+### Preview
