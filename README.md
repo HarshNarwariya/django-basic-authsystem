@@ -42,10 +42,10 @@ pip install django
 ![Login Page](/Images/login_page.png)
 
 # Sign Up Page
-![Sign Up Page](/Images/register_page.html)
+![Sign Up Page](/Images/register_page.png)
 
 # Home Page
 ![Home Page](/Images/home_page.png)
 
 # Successfull Sign Up
-![Sign Up Successfull](/Images/registration_successfull.png)
+![Sign Up Successfull](/Images/successfull_registeration.png)
