@@ -2,7 +2,7 @@
 
 Basic Auth System Implementation in Django.
 
-Requirements
+### Requirements
 ============
 
 To be able to run **djoser** you have to meet following requirements:
@@ -13,5 +13,5 @@ To be able to run **djoser** you have to meet following requirements:
 
 If you need to support other versions, please use djoser<2.2.
 
-Preview
+### Preview
 =======
