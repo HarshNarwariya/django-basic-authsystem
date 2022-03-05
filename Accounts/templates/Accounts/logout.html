@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Logged out</title>
+        <style>
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: sans-serif;
+                padding: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div>
+                <h3>You have been logged out!</h3>
+                <a href="{% url 'accounts:login' %}">Login again</a>
+            </div>
+        </div>
+    </body>
+</html>

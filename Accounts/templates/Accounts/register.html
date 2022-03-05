@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="{% static 'Accounts/forms.css' %}">
+    </head>
+    <body>
+        <div class="form-center">
+            <div class="form-content">
+                <div class="form-title">
+                    Register
+                </div>
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form.non_field_errors }}
+                    {{ form.username.errors }}
+                    {{ form.username.label_tag }}
+                    {{ form.username }}
+                    {{ form.email.errors }}
+                    {{ form.email.label_tag }}
+                    {{ form.email }}
+                    {{ form.password1.errors }}
+                    {{ form.password1.label_tag }}
+                    {{ form.password1 }}
+                    {{ form.password2.errors }}
+                    {{ form.password2.label_tag }}
+                    {{ form.password2 }}
+                    <div class="center-button">
+                        <button id="submit-button" type="submit">Submit</button>
+                    </div>
+                    <p style="text-align: center;">Already have an account <a href="{% url 'accounts:login' %}">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
