@@ -29,5 +29,11 @@ pip install django
 }
 ```
 
+### Dummy Account Credientials
 
-### Preview
+```python
+{
+  "username": "harsh",
+  "password": "testing321",
+}
+```
