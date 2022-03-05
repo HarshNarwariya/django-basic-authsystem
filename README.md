@@ -1,5 +1,7 @@
 # django-basic-authsystem
 
+Basic Auth System Implementation in Django.
+
 Requirements
 ============
 
@@ -10,3 +12,6 @@ To be able to run **djoser** you have to meet following requirements:
 - Django REST Framework (3.11.1, 3.12.1, 3.13)
 
 If you need to support other versions, please use djoser<2.2.
+
+Preview
+=======
